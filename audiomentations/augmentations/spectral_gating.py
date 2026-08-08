@@ -4,7 +4,6 @@ from numpy.typing import NDArray
 import librosa
 
 from audiomentations.core.transforms_interface import BaseWaveformTransform
-from audiomentations.core.utils import get_max_abs_amplitude
 
 
 class SpectralGating(BaseWaveformTransform):
